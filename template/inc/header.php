@@ -20,3 +20,7 @@
       </div>
     </div>
   </nav>
+  <div class="container my-5">
+  <?php
+    displayMessage();
+  ?>

@@ -4,6 +4,12 @@ Job-lister  --|-- config  --|-- config.php
               |   
               |   
               |   
+              |   "Functions"
+              |-- helpers  --|-- system_helper.php 
+              |   
+              |   
+              |   
+              |   
               |   "Classes Here"
               |-- lib --|-- Template.php
               |         |-- Database.php
@@ -18,15 +24,7 @@ Job-lister  --|-- config  --|-- config.php
               |               |         |-- footer.php
               |               |
               |               |-- frontPage.php
+              |               |-- createJob.php
               |   
               |-- index.php
-
-
-* config.php included in init.php
-*
-
-|----------------------------------|
-| * review Database Class
-| * review Template Class
-|
-|----------------------------------|
+              |-- create.php

@@ -1,6 +1,5 @@
 <?php include_once 'inc/header.php';?>
 
-<div class="container my-5">
   <!-- jumbotron -->
   <div class="jumbotron mb-4 text-center">
     <h2 class="my-4">* Find A Job *</h2>
@@ -18,7 +17,7 @@
   </div>
   <h3 class="mb-3"><?=$title?></h3>
   <?php foreach($jobs as $job) {?>
-    <div class="card mb-5">
+    <div class="card mb-4">
     <div class="card-body">
       <h5 class="card-title"><?=$job->job_title?></h5>
       <p class="card-text"><?=$job->cname .' : '. $job->company?></p>

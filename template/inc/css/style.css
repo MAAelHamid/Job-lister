@@ -1,6 +1,8 @@
 /* globals */
 * {font-family: 'Roboto', sans-serif;}
 a {text-decoration: none;}
+
+/* INDEX */
 /* navbar */
 nav .container .adds a {margin: auto 10px;color: #ccc9c9;}
 nav .container .adds a:hover {cursor: pointer;}
@@ -8,3 +10,12 @@ nav .container .adds a:hover {cursor: pointer;}
 .jumbotron {background-color: #ebeef1 !important; padding: 40px; border-radius: 20px;}
 .jumbotron h2 {font-size: 50px; font-weight: 600;}
 .btn.find {color: #fff;} 
+
+/* CREATE */
+.create label {
+  font-weight: 400;
+}
+#cHeader {
+  font-size: 40px;
+    font-weight: 500;
+}

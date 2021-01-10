@@ -1,0 +1,32 @@
+                  "Configuration Files"
+Job-lister  --|-- config  --|-- config.php 
+              |             |-- init.php 
+              |   
+              |   
+              |   
+              |   "Classes Here"
+              |-- lib --|-- Template.php
+              |         |-- Database.php
+              |         |-- Job.php
+              |   
+              |   
+              |   
+              |   "Pages - Frontend"
+              |-- template  --|-- inc --|---- css ----|-- style.css
+              |               |         |
+              |               |         |-- header.php
+              |               |         |-- footer.php
+              |               |
+              |               |-- frontPage.php
+              |   
+              |-- index.php
+
+
+* config.php included in init.php
+*
+
+|----------------------------------|
+| * review Database Class
+| * review Template Class
+|
+|----------------------------------|
